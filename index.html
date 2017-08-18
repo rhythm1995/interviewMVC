@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="topic">todos</h1>
+  </header>
+  <main>
+    <aside>
+      <div class="todoapp">
+        <input class="new-todo" type="text" placeholder="What needs to be done?" autofocus>
+        <section class="main">
+          <input class="toggle-all" type="checkbox">
+          <!-- Show List -->
+          <ul class="todo-list"></ul>
+          <footer class="footer">
+            <span class="todo-count"></span>
+            <ul class="filters">
+              <li><a class="selected" style="cursor:pointer;">All</a></li>
+              <li><a class="" style="cursor:pointer;">Active</a></li>
+              <li><a class="" style="cursor:pointer;">Completed</a></li>
+            </ul>
+          </footer>
+        </section>
+      </div>
+    </aside>
+
+    <article>
+
+
+    </article>
+  </main>
+
+
+
+
+
+</body>
+
+
+<script>
+  // You can also require other files to run in this process
+  require('./renderer.js')
+</script>
+
+</html>
